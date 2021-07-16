@@ -31,7 +31,8 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Spec-End will improve the way of managing your trading card game inventory and collection.</p>
+            <p className="text-xl text-gray-600">Spec-End will improve the management of your inventory.</p>
+            <p className="text-xl text-gray-600">Whether trading card singles, sealed product, or other collectibles. Spec-End is flexible enough to support every type of collectible.</p>
           </div>
 
           {/* Section content */}
@@ -108,9 +109,56 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col pt-20">
+                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
+                      <div class="pb-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Inventory management for collectibles</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Track what you have in stock.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Tag items to your custom needs.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <img className="md:max-w-none mx-auto " src={require('../images/inventory.jpg').default} width="450" alt="Features bg" />
+                      <div class="pt-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Gather business insights</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">View value and profit per item.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Learn about your inventory composition.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Improve business decisions.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
