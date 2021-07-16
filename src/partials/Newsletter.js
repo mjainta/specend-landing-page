@@ -6,6 +6,14 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
 
+          {/* Spacing header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 pt-12 md:pb-16">
+            <h1 className="h2 mb-4">Be the first to benefit</h1>
+            <p className="text-xl text-gray-600">We are searching for willing pilot users who use Spec-End and would like you to offer the possibility to subscribe for this option via mail. We will keep you posted then, regularly.</p>
+            <br></br>
+            <p className="text-xl text-gray-600">The plan for Spec-End is to have a working prototype ready in 2021, and developing the full product for 2022, in collaboration with our pilot partners.</p>
+          </div>
+
           {/* CTA box */}
           <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
 
@@ -39,8 +47,8 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
+                <h3 className="h3 text-white mb-2">Subscribe now</h3>
+                <p className="text-gray-300 text-lg mb-6">Show us that you are interested in Spec-End and its future development.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
@@ -50,7 +58,7 @@ function Newsletter() {
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
+                  <p className="text-sm text-gray-400 mt-3">Subscribe for free.</p>
                 </form>
               </div>
 
