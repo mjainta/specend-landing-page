@@ -42,7 +42,8 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Spec-end can be the backend for your specs, helping you in your daily business. It can also help you evolve and scale up, pivoting from spec'ing only.</p>
+                <p className="text-xl text-gray-600">Spec-end can be the backend for your specs, helping you in your daily business. It can also help expand your business, from spec'ing to other business models.</p>
+                <p className="text-xl text-gray-600">At the same time, it is also a powerful collection tracker for collectors.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -67,8 +68,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Automatic inventory update</div>
-                    <div className="text-gray-600">Import orders and sales automatically into your inventory to save time for the important things.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Boost productivity</div>
+                    <div className="text-gray-600">Save time on daily tasks to have more time available for the important things.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +84,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Integrations</div>
-                    <div className="text-gray-600">We aim to integrate several marketplaces and products.</div>
+                    <div className="text-gray-600">We aim to integrate multiple marketplaces and products.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +110,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col pt-20">
+                  <div className="relative inline-flex flex-col pt-10">
                     <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
                       <div class="pb-4">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Inventory management for collectibles</div>
@@ -157,8 +158,6 @@ function Features() {
                         </div>
                       </div>
                     </div>
-                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -173,9 +172,48 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col pt-20">
+                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
+                      <div class="pb-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Accelerate fulfilment</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Generate labels for your orders.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Print invoices for your customers.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <img className="md:max-w-none mx-auto " src={require('../images/tax-paperwork.jpg').default} width="450" alt="Features bg" />
+                      <div class="pt-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Taxation basics</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Keep track of your expenses.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Generate reports to facilitate your income tax.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -190,9 +228,54 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col pt-32">
+                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
+                      <div class="pb-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Integration use cases</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Integrate to reach more customers.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">Integrate to facilitate your daily tasks.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <img className="md:max-w-none mx-auto " src={require('../images/display-code.jpg').default} width="450" alt="Features bg" />
+                      <div class="pt-4">
+                        <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Diverse markets</div>
+                        <div className="text-gray-600 text-lg text-center">
+                          <ul class="text-left pl-4">
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">We want to reach both regions, the US and Europe.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">We will start integrating "Magic: The Gathering" data and expand upon.</span>
+                            </li>
+                            <li>
+                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                                <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                              </svg>
+                              <span class="pl-1">We will integrate with Cardmarket, Cardtrader, and TCGplayer at least.</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </Transition>
               </div>
