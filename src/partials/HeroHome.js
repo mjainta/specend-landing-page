@@ -32,7 +32,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The backend for your <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">specs</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The backend for your <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-teal-600">specs</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We take the challenge to solve problems regarding inventory, sales and speculation tracking in the realm of trading cards and other collectibles. Our target group are private sellers and side businesses.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
