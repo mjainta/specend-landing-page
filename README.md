@@ -1,6 +1,7 @@
 # Spec-End landing page
 
 Landing page for [specend.com](https://specend.com).
+
 Made with ❤️ and **Simple Light** by [Cruip.com](https://github.com/cruip/tailwind-landing-page-template).
 
 ## Table of contents
@@ -105,6 +106,7 @@ In order to track visitors, you need to set an [environment variable](https://cr
 ## Credits
 
 - [Nucleo](https://nucleoapp.com/)
+- [Cruip.com](https://github.com/cruip/tailwind-landing-page-template)
 
 ## Terms and License
 
