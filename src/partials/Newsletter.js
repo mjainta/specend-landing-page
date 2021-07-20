@@ -9,9 +9,9 @@ function Newsletter() {
           {/* Spacing header */}
           <div className="max-w-3xl mx-auto text-center pb-12 pt-12 md:pb-16">
             <h1 className="h2 mb-4">Be the first to benefit</h1>
-            <p className="text-xl text-gray-600">We are searching for willing pilot users who use Spec-End and would like you to offer the possibility to subscribe for this option via mail. We will keep you posted then, regularly.</p>
+            <p className="text-xl text-gray-600">Subscribe for the pilot phase via mail. You will receive further information, and we will keep you posted, regularly.</p>
             <br></br>
-            <p className="text-xl text-gray-600">The plan for Spec-End is to have a working prototype ready in 2021, and developing the full product for 2022, in collaboration with our pilot partners.</p>
+            <p className="text-xl text-gray-600">The plan for Spec-End is to have a working prototype ready in 2021, and developing the full product for 2022, in close collaboration with our pilot partners.</p>
           </div>
 
           {/* CTA box */}
