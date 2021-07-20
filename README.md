@@ -1,18 +1,7 @@
-# Free Tailwind landing page template
+# Spec-End landing page
 
-![Simple TailwindCSS template preview](https://user-images.githubusercontent.com/2683512/96160974-f93aa780-0f16-11eb-9ce4-81d94b216be6.png)
-
-**Simple Light** is a free landing page template built on top of **TailwindCSS** and fully coded in **React**. Simple light is designed to provide all the basic components a developer need to create a landing page for SaaS products, online services, and more. 
-Use it for whatever you want, and be sure to reach us out on Twitter if you build anything cool/useful with it.
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
-
-## Live demo
-
-Check the live demo here 👉️ [https://simple.cruip.com/](https://simple.cruip.com/)
-
-## Simple PRO
-
-Looking for more pages and components? Have a look at the **premium version** here 👉️ [https://cruip.com/demos/simple/](https://cruip.com/demos/simple/)
+Landing page for [specend.com](https://specend.com).
+Made with ❤️ and **Simple Light** by [Cruip.com](https://github.com/cruip/tailwind-landing-page-template).
 
 ## Table of contents
 
@@ -32,8 +21,6 @@ Looking for more pages and components? Have a look at the **premium version** he
   * [Google Analytics Setup](#google-analytics-setup)
 * [Credits](#credits)
 * [Terms and License](#terms-and-license)
-* [About Us](#about-us)
-* [Stay in the loop](#stay-in-the-loop)
 
 ## Usage
 
@@ -122,14 +109,5 @@ In order to track visitors, you need to set an [environment variable](https://cr
 ## Terms and License
 
 - Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
 - Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
 - Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
