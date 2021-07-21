@@ -121,6 +121,9 @@ module.exports = {
           '50%': { transform: 'translateY(-5%)', },
         },
       },
+      width: {
+        '450': '450px',
+      },
       zIndex: {
         '-1': '-1',
       },

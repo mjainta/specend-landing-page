@@ -112,7 +112,7 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col pt-10">
                     <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
-                      <div class="pb-4">
+                      <div class="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Inventory management for collectibles</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
@@ -132,7 +132,7 @@ function Features() {
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/inventory.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4">
+                      <div class="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Gather business insights</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
@@ -174,7 +174,7 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col pt-20">
                     <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
-                      <div class="pb-4">
+                      <div class="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Accelerate fulfilment</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
@@ -194,7 +194,7 @@ function Features() {
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/tax-paperwork.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4">
+                      <div class="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Taxation basics</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
@@ -229,8 +229,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col pt-32">
-                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
-                      <div class="pb-4">
+                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded">
+                      <div class="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Integration use cases</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
@@ -250,7 +250,7 @@ function Features() {
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/display-code.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4">
+                      <div class="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Diverse markets</div>
                         <div className="text-gray-600 text-lg text-center">
                           <ul class="text-left pl-4">
