@@ -3,7 +3,7 @@ import React from 'react';
 function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div id="subscribe" className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
 
           {/* Spacing header */}
@@ -48,7 +48,7 @@ function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">Subscribe now</h3>
-                <p className="text-gray-300 text-lg mb-6">Show us that you are interested in Spec-End and its future development.</p>
+                <p className="text-gray-300 text-lg mb-6">Show us that you are interested in Spec-End and its development.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
