@@ -12,6 +12,7 @@ import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
 import SignUp from './pages/SignUp';
+import Subscribed from './pages/Subscribed';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
         </Route>
         <Route path="/privacypolicy">
           <PrivacyPolicy />
+        </Route>
+        <Route path="/subscribed">
+          <Subscribed />
         </Route>
       </Switch>
     </>
