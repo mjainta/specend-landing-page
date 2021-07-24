@@ -11,7 +11,6 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 
@@ -42,7 +41,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/signin">
-          <SignIn />
+          <SignUp />
         </Route>
         <Route path="/signup">
           <SignUp />
