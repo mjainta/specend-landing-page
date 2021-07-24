@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 
@@ -74,7 +73,7 @@ function SignUp() {
                 <p class="pb-4">Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf.</p>
                 <p class="pb-4">Google will not associate your IP address with other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website.</p>
                 <p class="pb-4">By using this website, you consent to process data about you by Google in the manner and for the purposes set out above.</p>
-                <p class="pb-4">You can prevent Google's cookie generated collection of data, referring to your use of the website (incl. your IP address), plus the processing of the data, by downloading and installing the browser-plugin, which you can find <a href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank" class="text-blue-600 underline">here</a>.</p>
+                <p class="pb-4">You can prevent Google's cookie generated collection of data, referring to your use of the website (incl. your IP address), plus the processing of the data, by downloading and installing the browser-plugin, which you can find <a href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank" rel="noreferrer" class="text-blue-600 underline">here</a>.</p>
 
                 <h4 class="h4 pb-1 text-gray-800">Tracking Technologies and Cookies</h4>
                 <p class="pb-4">We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.</p>
