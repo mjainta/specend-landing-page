@@ -57,9 +57,6 @@ function Footer() {
               <li className="mb-2">
                 <Link to="/privacypolicy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
-              <li className="mb-2">
-                <Link id="open_preferences_center" to="/privacypolicy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
-              </li>
             </ul>
           </div>
 
