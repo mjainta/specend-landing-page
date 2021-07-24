@@ -40,9 +40,14 @@ function Home() {
         enableDeclineButton
         declineButtonText="I decline all cookies"
         cookieName="google_analytics"
-        buttonStyle={{ color: "#fff", background: "#428061"}}
-        buttonClasses="text-sm"
-        declineButtonClasses="text-sm"
+        buttonWrapperClasses="pt-4 w-full text-center"
+        buttonClasses="text-sm btn-sm text-white bg-teal-600 ml-4"
+        declineButtonClasses="text-sm btn-sm text-white bg-yellow-700"
+        overlayClasses="inset-0 fixed w-screen h-screen z-40 top-0 bg-gray-400 bg-opacity-50"
+        contentClasses="w-full text-center"
+        containerClasses="bg-gray-700 text-white h-1/2 fixed inset-64 z-50 rounded rounded-lg align-middle flex place-content-center flex-wrap"
+        overlay={true}
+        disableStyles={true}
         expires={150}
         onAccept={handleAcceptCookie}
         onDecline={handleDeclineCookie}
