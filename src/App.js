@@ -14,6 +14,7 @@ import Home from './pages/Home';
 import SignUp from './pages/SignUp';
 import Subscribed from './pages/Subscribed';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import AboutUs from './pages/AboutUs';
 
 function App() {
 
@@ -52,6 +53,9 @@ function App() {
         </Route>
         <Route path="/subscribed">
           <Subscribed />
+        </Route>
+        <Route path="/aboutus">
+          <AboutUs />
         </Route>
       </Switch>
     </>
