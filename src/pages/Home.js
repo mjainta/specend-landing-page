@@ -13,9 +13,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   const handleAcceptCookie = () => {
-    if (process.env.REACT_APP_GA_CODE) {
-      initGA(process.env.REACT_APP_GA_CODE);
-    }
+    initGA();
   };
 
   const handleDeclineCookie = () => {

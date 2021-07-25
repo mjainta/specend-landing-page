@@ -1,7 +1,12 @@
 import * as ReactGA from "react-ga";
+import dotenv from "dotenv";
 
-export const initGA = (id) => {
+dotenv.config()
+
+export const initGA = () => {
   if (process.env.NODE_ENV === "production") {
-    ReactGA.initialize(id);
+    if (process.env.REACT_APP_GA_CODE) {
+      ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+    }
   }
 };
