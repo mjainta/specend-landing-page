@@ -24,7 +24,9 @@ function Home() {
   };
 
   useEffect(() => {
-    const isConsent = getCookieConsentValue();
+    const isConsent = getCookieConsentValue("_ga");
+    console.log("useEffect")
+    console.log(isConsent)
     if (isConsent === "true") {
       handleAcceptCookie();
     }
@@ -37,7 +39,7 @@ function Home() {
         buttonText="I accept all cookies"
         enableDeclineButton
         declineButtonText="I decline all cookies"
-        cookieName="google_analytics"
+        cookieName="_ga"
         buttonWrapperClasses="pt-4 w-full text-center flex gap-2 place-content-center"
         buttonClasses="text-sm btn-sm text-white bg-teal-600 my-2"
         declineButtonClasses="text-sm btn-sm text-white bg-yellow-700 my-2"
