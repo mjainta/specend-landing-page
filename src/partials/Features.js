@@ -111,48 +111,48 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col pt-10">
-                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
-                      <div class="pb-4 w-450">
+                    <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
+                      <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Inventory management for collectibles</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Track what you have in stock.</span>
+                              <span className="pl-1">Track what you have in stock.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Tag items to your custom needs.</span>
+                              <span className="pl-1">Tag items to your custom needs.</span>
                             </li>
                           </ul>
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/inventory.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4 w-450">
+                      <div className="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Gather business insights</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">View value and profit per item.</span>
+                              <span className="pl-1">View value and profit per item.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Learn about your inventory composition.</span>
+                              <span className="pl-1">Learn about your inventory composition.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Improve business decisions.</span>
+                              <span className="pl-1">Improve business decisions.</span>
                             </li>
                           </ul>
                         </div>
@@ -173,42 +173,42 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col pt-20">
-                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
-                      <div class="pb-4 w-450">
+                    <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
+                      <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Accelerate fulfilment</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Generate labels for your orders.</span>
+                              <span className="pl-1">Generate labels for your orders.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Print invoices for your customers.</span>
+                              <span className="pl-1">Print invoices for your customers.</span>
                             </li>
                           </ul>
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/tax-paperwork.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4 w-450">
+                      <div className="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Taxation basics</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Keep track of your expenses.</span>
+                              <span className="pl-1">Keep track of your expenses.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Generate reports to facilitate your income tax.</span>
+                              <span className="pl-1">Generate reports to facilitate your income tax.</span>
                             </li>
                           </ul>
                         </div>
@@ -229,48 +229,48 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col pt-32">
-                    <div class="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded">
-                      <div class="pb-4 w-450">
+                    <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded">
+                      <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Integration use cases</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Integrate to reach more customers.</span>
+                              <span className="pl-1">Integrate to reach more customers.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">Integrate to facilitate your daily tasks.</span>
+                              <span className="pl-1">Integrate to facilitate your daily tasks.</span>
                             </li>
                           </ul>
                         </div>
                       </div>
                       <img className="md:max-w-none mx-auto " src={require('../images/display-code.jpg').default} width="450" alt="Features bg" />
-                      <div class="pt-4 w-450">
+                      <div className="pt-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Diverse markets</div>
                         <div className="text-gray-600 text-lg text-center">
-                          <ul class="text-left pl-4">
+                          <ul className="text-left pl-4">
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">We want to reach both regions, the US and Europe.</span>
+                              <span className="pl-1">We want to reach both regions, the US and Europe.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">We will start integrating "Magic: The Gathering" data and expand upon.</span>
+                              <span className="pl-1">We will start integrating "Magic: The Gathering" data and expand upon.</span>
                             </li>
                             <li>
-                              <svg class="svg-icon inline" viewBox="0 0 20 20" width="20">
+                              <svg className="svg-icon inline" viewBox="0 0 20 20" width="20">
                                 <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
                               </svg>
-                              <span class="pl-1">We will integrate with Cardmarket, Cardtrader, and TCGplayer at least.</span>
+                              <span className="pl-1">We will integrate with Cardmarket, Cardtrader, and TCGplayer at least.</span>
                             </li>
                           </ul>
                         </div>
