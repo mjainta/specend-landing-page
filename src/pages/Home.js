@@ -21,12 +21,11 @@ function Home() {
     Cookies.remove("_ga");
     Cookies.remove("_gat");
     Cookies.remove("_gid");
+    Cookies.remove("google_analytics");
   };
 
   useEffect(() => {
     const isConsent = getCookieConsentValue("google_analytics");
-    console.log("useEffect")
-    console.log(isConsent)
     if (isConsent === "true") {
       handleAcceptCookie();
     }
