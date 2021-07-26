@@ -36,10 +36,10 @@ function SignUp() {
                       <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Register</button>
                     </div>
                   </div>
-                  <div className="text-sm text-gray-500 text-center mt-3">
-                    By creating an account, you agree to our <a className="underline" href="/privacypolicy">privacy policy</a>.
-                  </div>
                 </form>
+                <div className="text-sm text-gray-500 text-center mt-3">
+                  By creating an account, you agree to our <a className="underline" href="/privacypolicy">privacy policy</a>.
+                </div>
               </div>
 
             </div>
