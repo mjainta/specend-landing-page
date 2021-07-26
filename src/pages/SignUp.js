@@ -33,7 +33,7 @@ function SignUp() {
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Subscribe</button>
+                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Register</button>
                     </div>
                   </div>
                   <div className="text-sm text-gray-500 text-center mt-3">

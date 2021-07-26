@@ -9,9 +9,9 @@ function Newsletter() {
           {/* Spacing header */}
           <div className="max-w-3xl mx-auto text-center pb-12 pt-12 md:pb-16">
             <h1 className="h2 mb-4">Be the first to benefit</h1>
-            <p className="text-xl text-gray-600">Subscribe for the pilot phase via mail. You will receive further information, and we will keep you posted, regularly.</p>
+            <p className="text-xl text-gray-600">Sign up for free during the alpha phase. To benefit first, and receive a tailored software solution.</p>
             <br></br>
-            <p className="text-xl text-gray-600">The plan for Spec-End is to have a working prototype ready in 2021, and developing the full product for 2022, in close collaboration with our pilot partners.</p>
+            <p className="text-xl text-gray-600">Advancing from the alpha phase, we will obtain your feedback and implement it in the next versions.</p>
           </div>
 
           {/* CTA box */}
@@ -47,7 +47,7 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Subscribe now</h3>
+                <h3 className="h3 text-white mb-2">Register now</h3>
                 <p className="text-gray-300 text-lg mb-6">Show us that you are interested in Spec-End and its development.</p>
 
                 {/* CTA form */}
@@ -55,11 +55,11 @@ function Newsletter() {
                   <input type="hidden" name="form-name" value="subscribe" />
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input name="email" type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</button>
+                    <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Register</button>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">Subscribe for free.</p>
+                  <p className="text-sm text-gray-400 mt-3">Register for free.</p>
                 </form>
               </div>
 
