@@ -110,7 +110,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col pt-10">
+                  <div className="relative inline-flex flex-col md:pt-10">
                     <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
                       <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Inventory management for collectibles</div>
@@ -172,7 +172,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col pt-20">
+                  <div className="relative inline-flex flex-col md:pt-20">
                     <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded ">
                       <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Accelerate fulfilment</div>
@@ -228,7 +228,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col pt-32">
+                  <div className="relative inline-flex flex-col md:pt-32">
                     <div className="bg-gray-100 border border-gray-200 shadow-xl py-2 rounded">
                       <div className="pb-4 w-450">
                         <div className="font-bold text-left pl-4 text-xl leading-snug tracking-tight mb-1">Integration use cases</div>
