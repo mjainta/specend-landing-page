@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mtg-wallpaper': "url('../images/mtg-wallpaper.png')"
+        'mtg-wallpaper': "url('../images/mtg-wallpaper.png')",
+        'pokemon-wallpaper': "url('../images/pokemon_logo.svg')",
+        'fab-wallpaper': "url('../images/fab_monarch.jpg')",
       },
       colors: {
         gray: {

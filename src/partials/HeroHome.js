@@ -15,7 +15,7 @@ function HeroHome() {
     nextSlideEl.classList.remove('translate-x-full');
     nextSlideEl.classList.add('translate-x-0');
 
-    setTimeout(nextSlide, 7000);
+    setTimeout(nextSlide, 2000);
 
     const activeClone = activeSlide.cloneNode()
     activeClone.classList.remove('-translate-x-full')
@@ -26,7 +26,7 @@ function HeroHome() {
   useEffect(() => {
     const timer = setTimeout(() => {
       nextSlide();
-    }, 7000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -34,9 +34,9 @@ function HeroHome() {
   return (
     <section className="relative">
       <div className="relative" id="slidewrapper">
-        <div className="absolute inset-0 w-screen h-screen bg-mtg-wallpaper bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide"></div>
-        <div className="absolute inset-0 w-screen h-screen bg-purple-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
-        <div className="absolute inset-0 w-screen h-screen bg-teal-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
+        <div className="absolute inset-0 w-screen h-screen bg-mtg-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide"></div>
+        <div className="absolute inset-0 w-screen h-screen bg-pokemon-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
+        <div className="absolute inset-0 w-screen h-screen bg-fab-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
       </div>
 
       {/* Illustration behind hero content */}
