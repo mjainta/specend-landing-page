@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'mtg-wallpaper': "url('../images/mtg-wallpaper.png')"
+      },
       colors: {
         gray: {
           100: '#FBFBFB',

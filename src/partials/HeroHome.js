@@ -1,12 +1,43 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from '../utils/Modal';
 
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
+
+  function nextSlide() {
+    let activeSlide = document.querySelector('#slidewrapper .slide.translate-x-0');
+    activeSlide.classList.remove('translate-x-0');
+    activeSlide.classList.add('-translate-x-full');
+
+    let nextSlideEl = activeSlide.nextElementSibling;
+    nextSlideEl.classList.remove('translate-x-full');
+    nextSlideEl.classList.add('translate-x-0');
+
+    setTimeout(nextSlide, 7000);
+
+    const activeClone = activeSlide.cloneNode()
+    activeClone.classList.remove('-translate-x-full')
+    activeClone.classList.add('translate-x-full')
+    document.querySelector('#slidewrapper').lastChild.after(activeClone)
+  }
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      nextSlide();
+    }, 7000);
+    return () => clearTimeout(timer);
+  }, []);
+
+
   return (
     <section className="relative">
+      <div className="relative" id="slidewrapper">
+        <div className="absolute inset-0 w-screen h-screen bg-mtg-wallpaper bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide"></div>
+        <div className="absolute inset-0 w-screen h-screen bg-purple-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
+        <div className="absolute inset-0 w-screen h-screen bg-teal-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
+      </div>
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
