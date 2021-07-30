@@ -15,9 +15,9 @@ function HeroHome() {
     nextSlideEl.classList.remove('translate-x-full');
     nextSlideEl.classList.add('translate-x-0');
 
-    setTimeout(nextSlide, 2000);
+    setTimeout(nextSlide, 7000);
 
-    const activeClone = activeSlide.cloneNode()
+    const activeClone = activeSlide.cloneNode(true)
     activeClone.classList.remove('-translate-x-full')
     activeClone.classList.add('translate-x-full')
     document.querySelector('#slidewrapper').lastChild.after(activeClone)
@@ -26,7 +26,7 @@ function HeroHome() {
   useEffect(() => {
     const timer = setTimeout(() => {
       nextSlide();
-    }, 2000);
+    }, 7000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -34,9 +34,15 @@ function HeroHome() {
   return (
     <section className="relative">
       <div className="relative" id="slidewrapper">
-        <div className="absolute inset-0 w-screen h-screen bg-mtg-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide"></div>
-        <div className="absolute inset-0 w-screen h-screen bg-pokemon-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
-        <div className="absolute inset-0 w-screen h-screen bg-fab-wallpaper no-repeat object-contain bg-fixed text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide"></div>
+        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide">
+          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/mtg-wallpaper.png').default} alt="Background slide 1" />
+        </div>
+        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
+          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/pokemon_logo.svg').default} alt="Background slide 2" />
+        </div>
+        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
+          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/fab_monarch.jpg').default} alt="Background slide 3" />
+        </div>
       </div>
 
       {/* Illustration behind hero content */}
@@ -50,7 +56,6 @@ function HeroHome() {
             </linearGradient>
           </defs>
           <g fill="url(#illustration-01)" fillRule="evenodd">
-            <circle cx="1232" cy="128" r="128" />
             <circle cx="155" cy="443" r="64" />
           </g>
         </svg>
