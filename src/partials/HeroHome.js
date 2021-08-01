@@ -5,34 +5,33 @@ function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
+  useEffect(() => {
+    function nextSlide() {
+      let activeSlide = document.querySelector('#slidewrapper .slide.translate-x-0');
+      activeSlide.classList.remove('translate-x-0');
+      activeSlide.classList.add('-translate-x-full');
+      
+      let nextSlideEl = activeSlide.nextElementSibling;
+      nextSlideEl.classList.remove('translate-x-full');
+      nextSlideEl.classList.add('translate-x-0');
+      
+      setTimeout(nextSlide, 10000);
+      
+      const activeClone = activeSlide.cloneNode(true)
+      activeClone.classList.remove('-translate-x-full')
+      activeClone.classList.add('translate-x-full')
+      document.querySelector('#slidewrapper').lastChild.after(activeClone)
 
-  function nextSlide() {
-    let activeSlide = document.querySelector('#slidewrapper .slide.translate-x-0');
-    activeSlide.classList.remove('translate-x-0');
-    activeSlide.classList.add('-translate-x-full');
-    
-    let nextSlideEl = activeSlide.nextElementSibling;
-    nextSlideEl.classList.remove('translate-x-full');
-    nextSlideEl.classList.add('translate-x-0');
-    
-    setTimeout(nextSlide, 10000);
-    
-    const activeClone = activeSlide.cloneNode(true)
-    activeClone.classList.remove('-translate-x-full')
-    activeClone.classList.add('translate-x-full')
-    document.querySelector('#slidewrapper').lastChild.after(activeClone)
+      // Remove old slide, and mark last used slide to be removed
+      const oldSlide = document.querySelector('.remove-slide');
 
-    // Remove old slide, and mark last used slide to be removed
-    const oldSlide = document.querySelector('.remove-slide');
+      if (oldSlide) {
+        oldSlide.remove();
+      }
 
-    if (oldSlide) {
-      oldSlide.remove();
+      activeSlide.classList.add('remove-slide');
     }
 
-    activeSlide.classList.add('remove-slide');
-  }
-
-  useEffect(() => {
     const timer = setTimeout(() => {
       nextSlide();
     }, 12000);
