@@ -107,6 +107,7 @@ module.exports = {
         '48': '12rem',
       },
       opacity: {
+        '15': '0.15',
         '90': '0.9',
       },
       scale: {
@@ -126,6 +127,9 @@ module.exports = {
       },
       zIndex: {
         '-1': '-1',
+      },
+      transitionDuration: {
+        '2000': '2000ms',
       },
     },
   },

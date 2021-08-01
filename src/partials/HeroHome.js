@@ -15,7 +15,7 @@ function HeroHome() {
     nextSlideEl.classList.remove('translate-x-full');
     nextSlideEl.classList.add('translate-x-0');
 
-    setTimeout(nextSlide, 7000);
+    setTimeout(nextSlide, 10000);
 
     const activeClone = activeSlide.cloneNode(true)
     activeClone.classList.remove('-translate-x-full')
@@ -26,7 +26,7 @@ function HeroHome() {
   useEffect(() => {
     const timer = setTimeout(() => {
       nextSlide();
-    }, 7000);
+    }, 12000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -34,14 +34,14 @@ function HeroHome() {
   return (
     <section className="relative">
       <div className="relative" id="slidewrapper">
-        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide">
-          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/mtg-wallpaper.png').default} alt="Background slide 1" />
+        <div className="absolute inset-0 w-screen h-screen text-white flex items-start justify-center text-5xl transition-all ease-in-out duration-2000 transform translate-x-0 slide">
+          <img className="hidden sm:block md:max-w-screen mx-0 opacity-15" src={require('../images/mtg-wallpaper.jpg').default} alt="Background slide 1" />
         </div>
-        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
-          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/pokemon_logo.svg').default} alt="Background slide 2" />
+        <div className="absolute inset-0 w-screen h-screen text-white flex items-start justify-center text-5xl transition-all ease-in-out duration-2000 transform translate-x-full slide">
+          <img className="hidden sm:block md:max-w-screen mx-0 opacity-15" src={require('../images/pokemon-wallpaper.jpg').default} alt="Background slide 2" />
         </div>
-        <div className="absolute inset-0 w-screen h-screen no-repeat text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
-          <img className="md:max-w-screen mx-0 object-scale opacity-30 bg-fixed" src={require('../images/fab_monarch.jpg').default} alt="Background slide 3" />
+        <div className="absolute inset-0 w-screen h-screen text-white flex items-start justify-center text-5xl transition-all ease-in-out duration-2000 transform translate-x-full slide">
+          <img className="hidden sm:block md:max-w-screen mx-0 opacity-15" src={require('../images/fab-wallpaper.jpg').default} alt="Background slide 3" />
         </div>
       </div>
 
