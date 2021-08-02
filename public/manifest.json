@@ -1,21 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Spec-End",
+  "name": "Spec-End landing page",
   "icons": [
     {
-      "src": "specend-logo.jpg",
+      "src": "specend-logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "specend-logo-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x199"
     },
     {
-      "src": "logo512.png",
+      "src": "specend-logo-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x530"
     }
   ],
   "start_url": ".",
