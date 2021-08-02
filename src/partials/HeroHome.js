@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import Modal from '../utils/Modal';
+import React, { useEffect } from 'react';
 
 function HeroHome() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   useEffect(() => {
     function nextSlide() {
