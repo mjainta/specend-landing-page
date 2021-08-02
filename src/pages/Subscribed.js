@@ -26,7 +26,7 @@ function SignUp() {
               {/* Form */}
               <div className="text-center pb-12 md:pb-16">
                 <div className="max-w-3xl mx-auto">
-                  <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">You have successfully registered. We will contact you as soon as we have additional information about Spec-End and your options to contribute.</p>
+                  <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">You have successfully registered. We will contact you as soon as possible about options to contribute and your alpha access.</p>
                   <Link to="/" className="text-blue-600 hover:text-blue-700 transition duration-150 ease-in-out text-xl">Back to Home</Link>  
                 </div>
               </div>

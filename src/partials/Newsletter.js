@@ -1,6 +1,21 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 function Newsletter() {
+  let history = useHistory()
+
+  function handleSubmit(e) {
+    e.preventDefault()
+    let myForm = document.getElementById('subscribeForm');
+    let formData = new FormData(myForm)
+    fetch('/', {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
+    }).then(() => history.push("/subscribed")).catch((error) =>
+      alert(error))
+  }
+
   return (
     <section>
       <div id="subscribe" className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -51,11 +66,18 @@ function Newsletter() {
                 <p className="text-gray-300 text-lg mb-6">Show us that you are interested in Spec-End and its development.</p>
 
                 {/* CTA form */}
-                <form className="w-full lg:w-auto" name="subscribe" method="POST" data-netlify="true">
+                <form className="w-full lg:w-auto"
+                  name="subscribe"
+                  id="subscribeForm"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                  onSubmit={handleSubmit}
+                >
                   <input type="hidden" name="form-name" value="subscribe" />
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input name="email" required type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Register</button>
+                    <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 shadow">Register</button>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
