@@ -1,6 +1,6 @@
 {
-  "short_name": "Spec-End",
-  "name": "Spec-End landing page",
+  "short_name": "Spec-End collectible inventory management system",
+  "name": "Spec-End landing page - The inventory management system for collectibles",
   "icons": [
     {
       "src": "specend-logo.ico",
